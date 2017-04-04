@@ -32,21 +32,4 @@ $(document).ready(function(){
 	  $('.five-holder div').css('height', '20').css('width', '100%');
 	  $('.four-holder div').css('height', '20').css('width', '10%');
 	});
-	function Parent(){
-		this.show = function(){
-			console.log("Parent's show");
-		}
-	};
-	function Child(){
-		Parent.call(this);
-		/*this.show = function(){
-			console.log("Child's show");
-		}*/
-	};
-	//Child.prototype = Parent.prototype;
-	//Child.prototype.constructor = Child;
-	var child = new Child();
-	var parent = new Parent();
-	parent.show();
-	child.show();
 });
