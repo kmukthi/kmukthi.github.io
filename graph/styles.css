@@ -1,0 +1,56 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	margin: 0;
+}
+.item{
+	position: relative;
+	list-style-type: none;
+}
+.item-holder{
+	border: solid 0.1px rgba(128, 128, 128, 0.32);
+	position: relative;
+	display: inline-block;
+	height: 300px;
+	width: 220px;
+	padding: 2%;
+	margin: 5%;
+}
+.item-holder a img{
+	height: 80%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+@font-face{
+	font-family: 'Glyphicons Halflings';
+	src: url(glyphicons-halflings-regular.woff2);
+}
+.item-holder .glyphicon-star{
+	color: rgb(230, 157, 24);
+}
+a{
+	text-decoration: none!important;
+}
+.price{
+	color: maroon;
+}
+.five-holder, .four-holder{
+	width: 60%;
+	height: 20px;
+	border: solid 0.1px rgba(128, 128, 128, 0.32);
+	border-radius: 4px;
+	display: inline-block;
+	}
+.five-holder div, .four-holder div{
+	height: 0px;
+	width: 0px;
+	background-color: rgb(230, 157, 24);
+	transition: width 1s;
+	border-radius: 4px;
+}
+.popover{
+	left: 0px!important;
+	width: 100%!important;
+}
