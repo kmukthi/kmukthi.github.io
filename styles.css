@@ -12,8 +12,8 @@ body{
 	top: 5%;
 	left: 5%;
 	border: solid black 1px;
-	height: 76%;
-	width: 26%;
+	height: 500px;
+	width: 338px;
 	display: inline-block;
 }
 #thumbnail img{
