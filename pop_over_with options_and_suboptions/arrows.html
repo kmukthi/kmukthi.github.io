@@ -1,0 +1,67 @@
+<style type="text/css">
+	.arrow-container{
+	position: relative;
+	display: inline-block;
+	top: 40px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+}
+.txt{
+	position: absolute;
+}
+.arrow {
+    width: 0; 
+	height: 0; 
+	border-top: 15px solid black;
+	border-bottom: 15px solid black;
+	border-right: 15px solid red;
+	border-left: 15px solid red;
+    position: absolute;
+    top: 40px;
+}
+.arrow a{
+	display: block;
+}
+#arrow-right{
+	border-left: 15px solid solid;
+	border-right: 15px solid transparent;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+}
+#arrow-up{
+	border-bottom:15px solid black;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid transparent;
+}
+#arrow-down{
+	border-top: 15px solid black;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+#arrow-left{
+	border-right: 15px solid black;
+	border-left: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-top: 15px solid transparent;
+}
+
+</style>
+<div class="arrow-container">
+	<div class="txt">Left</div>
+	<a class="arrow" id="arrow-left" role="button"></a>
+</div>
+<div class="arrow-container">
+	<div class="txt">Right</div>
+	<a class="arrow" id="arrow-right" role="button"></a>
+</div>
+<div class="arrow-container">
+	<div class="txt">up</div>
+	<a class="arrow" id="arrow-up" role="button"></a>
+</div>
+<div class="arrow-container">
+	<div class="txt">down</div>
+	<a class="arrow" id="arrow-down" role="button"></a>
+</div>
